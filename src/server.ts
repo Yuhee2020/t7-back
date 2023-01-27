@@ -3,7 +3,7 @@ import app from "./app";
 import * as http from "http";
 import socketServer from "./socket";
 
-let port =process.env.PORT || 9001;
+let port =process.env.PORT || 9000;
 app.set("port", port);
 let server = http.createServer(app);
 server.listen(port);
