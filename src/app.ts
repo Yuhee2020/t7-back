@@ -1,6 +1,5 @@
-import * as cors from "cors";
+import cors from "cors";
 import "reflect-metadata";
-const createError = require("http-errors");
 const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
